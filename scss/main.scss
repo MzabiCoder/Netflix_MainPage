@@ -166,6 +166,8 @@ img {
 }
 
 .tab-content {
+    padding: 3rem;
+
     .container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -173,7 +175,19 @@ img {
         justify-content: center;
         align-items: center;
         text-align: center;
+
+        #tab-1-content,
+        #tab-2-content,
+        #tab-3-content {
+            display: none;
+        }
     }
+
+
+}
+
+.show {
+    display: block !important;
 }
 
 .container {
